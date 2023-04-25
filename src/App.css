@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 500px;
+  min-width: 250px;
+  padding: 3em;
+  border-radius: 6px;
+  background-color: rgb(5, 98, 110);
+  box-shadow: 0 0 5px 2px rgba(7, 142, 160, 0.733);
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 3px;
+  border: none;
+  padding: 0.3em 0.5em 0.2em 0.5em;
+  font-size: 0.7rem;
+  background-color: #c3dfbc;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  color: rgb(248, 250, 242);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0;
+  background: aliceblue;
+}
+
+li {
+  color: rgba(37, 37, 37, 0.897);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.add-button:hover {
+  background: #238320;
+}
+
+.delete-button:hover {
+  background: #eb4141;
+}
+
+.input-wrapper {
+  padding: 0.3em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.input-wrapper > input {
+  width: 100%;
+}
